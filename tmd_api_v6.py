@@ -7,7 +7,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import Literal
-from tmd_core_v6_fufrom tmd_core_v6_full_clean import generate_tmd_forecast_v6
+from tmd_core_v6_full_clean import generate_tmd_forecast_v6
 import hashlib
 
 API_SECRET_KEY = "TMD_SECRET_KEY_2025"
